@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-20T10:11:10 IST" name="Surefire suite" finished-at="2024-07-20T10:11:26 IST" duration-ms="15497">
+    <groups>
+    </groups>
+    <test started-at="2024-07-20T10:11:10 IST" name="Surefire test" finished-at="2024-07-20T10:11:26 IST" duration-ms="15497">
+      <class name="apitesting_restassured.Testsuite">
+        <test-method signature="Auth()[pri:0, instance:apitesting_restassured.Testsuite@6f3b5d16]" started-at="2024-07-20T10:11:10 IST" name="Auth" finished-at="2024-07-20T10:11:14 IST" duration-ms="4167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Auth -->
+        <test-method signature="deleteProduct()[pri:0, instance:apitesting_restassured.Testsuite@6f3b5d16]" started-at="2024-07-20T10:11:14 IST" name="deleteProduct" finished-at="2024-07-20T10:11:15 IST" duration-ms="875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProduct -->
+        <test-method signature="fetchAllProducts()[pri:0, instance:apitesting_restassured.Testsuite@6f3b5d16]" started-at="2024-07-20T10:11:15 IST" name="fetchAllProducts" finished-at="2024-07-20T10:11:16 IST" duration-ms="932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchAllProducts -->
+        <test-method signature="fetchSingleProduct()[pri:0, instance:apitesting_restassured.Testsuite@6f3b5d16]" started-at="2024-07-20T10:11:16 IST" name="fetchSingleProduct" finished-at="2024-07-20T10:11:17 IST" duration-ms="847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSingleProduct -->
+        <test-method signature="getAllProductCategories()[pri:0, instance:apitesting_restassured.Testsuite@6f3b5d16]" started-at="2024-07-20T10:11:17 IST" name="getAllProductCategories" finished-at="2024-07-20T10:11:18 IST" duration-ms="872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllProductCategories -->
+        <test-method signature="getProductsByCategory()[pri:0, instance:apitesting_restassured.Testsuite@6f3b5d16]" started-at="2024-07-20T10:11:18 IST" name="getProductsByCategory" finished-at="2024-07-20T10:11:19 IST" duration-ms="871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductsByCategory -->
+        <test-method signature="getProductsCategoryList()[pri:0, instance:apitesting_restassured.Testsuite@6f3b5d16]" started-at="2024-07-20T10:11:19 IST" name="getProductsCategoryList" finished-at="2024-07-20T10:11:20 IST" duration-ms="851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductsCategoryList -->
+        <test-method signature="limitAndSkipProducts()[pri:0, instance:apitesting_restassured.Testsuite@6f3b5d16]" started-at="2024-07-20T10:11:20 IST" name="limitAndSkipProducts" finished-at="2024-07-20T10:11:21 IST" duration-ms="867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- limitAndSkipProducts -->
+        <test-method signature="searchProducts()[pri:0, instance:apitesting_restassured.Testsuite@6f3b5d16]" started-at="2024-07-20T10:11:21 IST" name="searchProducts" finished-at="2024-07-20T10:11:21 IST" duration-ms="861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProducts -->
+        <test-method signature="sortProducts()[pri:0, instance:apitesting_restassured.Testsuite@6f3b5d16]" started-at="2024-07-20T10:11:21 IST" name="sortProducts" finished-at="2024-07-20T10:11:22 IST" duration-ms="864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortProducts -->
+        <test-method signature="addNewProduct()[pri:0, instance:apitesting_restassured.Testsuite@6f3b5d16]" started-at="2024-07-20T10:11:22 IST" name="addNewProduct" finished-at="2024-07-20T10:11:23 IST" duration-ms="845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewProduct -->
+        <test-method signature="updateProduct()[pri:0, instance:apitesting_restassured.Testsuite@6f3b5d16]" started-at="2024-07-20T10:11:23 IST" name="updateProduct" finished-at="2024-07-20T10:11:24 IST" duration-ms="863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateProduct -->
+        <test-method signature="Get_current_user()[pri:0, instance:apitesting_restassured.Testsuite@6f3b5d16]" started-at="2024-07-20T10:11:24 IST" name="Get_current_user" finished-at="2024-07-20T10:11:25 IST" depends-on-methods="apitesting_restassured.Testsuite.Auth" duration-ms="860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_current_user -->
+        <test-method signature="refreshAuthToken()[pri:0, instance:apitesting_restassured.Testsuite@6f3b5d16]" started-at="2024-07-20T10:11:25 IST" name="refreshAuthToken" finished-at="2024-07-20T10:11:26 IST" depends-on-methods="apitesting_restassured.Testsuite.Auth" duration-ms="839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshAuthToken -->
+      </class> <!-- apitesting_restassured.Testsuite -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
