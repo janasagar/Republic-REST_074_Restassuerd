@@ -96,7 +96,7 @@ HTTP request: ```DELETE```
 ![image](https://github.com/user-attachments/assets/802b8126-af2a-4365-90f9-77e4dfe2aa3f)
 
 ## Project Structure & Code Structure
-I use Maven Project with Page object model framework and Java for writting script
+I use Maven Project and Java for writting test script
 
 Here are the referance links for how to setup your project - 
 ### 1. Download IDE [SprinTool](https://spring.io/tools) or [Eclipse](https://www.eclipse.org/downloads/)
